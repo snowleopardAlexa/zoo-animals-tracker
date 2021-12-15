@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import Balance from './Balance';
 import IncomeExpenses from './IncomeExpenses';
+import TransactionList from './components/TransactionList';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Balance />
       <IncomeExpenses />
+      <TransactionList />
     </div>
   );
 };
