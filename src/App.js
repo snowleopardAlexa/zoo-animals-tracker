@@ -4,6 +4,7 @@ import Header from './Header';
 import Balance from './Balance';
 import IncomeExpenses from './IncomeExpenses';
 import TransactionList from './components/TransactionList';
+import AddTransaction from './components/AddTransaction';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Balance />
       <IncomeExpenses />
       <TransactionList />
+      <AddTransaction />
     </div>
   );
 };
