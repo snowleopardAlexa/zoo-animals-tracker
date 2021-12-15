@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
+import Note from './Note';
 
-function App() {
 
+const App = () => {
   const [notes] = useState([
     {
       title: "First note",
@@ -10,21 +11,15 @@ function App() {
       done: false
     }
   ]);
-
   return (
     <div>
       <h1>Notes</h1>
-      {notes.map(note => {
-        return (
-          <div>
-            <h1>{note.title}</h1>
-            <h3>{note.description}</h3>
-            <p>{note.done ? "done!" : "not done!"}</p>
-          </div>
-        );
+      {notes.map(({ title, description, done }) => {
+        return <Note title={title} description={description} done={done} />;
       })}
     </div>
   );
 };
 
 export default App;
+
