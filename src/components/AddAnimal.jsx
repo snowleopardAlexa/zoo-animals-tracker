@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function AddTransaction() {
 
     const [text, setText] = useState('');
-    const [amount, setAmount] = useState(0);
+    const [animal, setAnimal] = useState(0);
 
     return (
     <div>
@@ -15,12 +15,12 @@ function AddTransaction() {
         </div>
         <div class="form-control">
           <label for="amount"
-            >Amount <br />
-            (negative - expense, positive - income)</label
+            >Animal <br />
+            (negative - out, positive - in)</label
           >
-          <input value={amount} onChange= {() => setAmount()} type="number" id="amount" placeholder="Enter amount..." />
+          <input value={animal} onChange= {() => setAnimal()} type="number" id="animal" placeholder="Enter animal..." />
         </div>
-        <button class="btn">Add transaction</button>
+        <button class="btn">Add Animal</button>
       </form>
     </div>
     )
