@@ -2,10 +2,10 @@ import React from 'react'
 
 function Transfer({ animalTransfer }) {
 
-    const sign = animalTranser.animal < 0 ? '-' : '+';
+    const sign = animalTransfer.animal < 0 ? '-' : '+';
 
     return (
-        <li className="minus">
+        <li className={animalTransfer.animal < 0 ? 'minus' : 'plus'}>
             {animalTransfer.text} <span>{sign}{animalTransfer.animal}</span><button className="delete-btn">x</button>
         </li>
     )
