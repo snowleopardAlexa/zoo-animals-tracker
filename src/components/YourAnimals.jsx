@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Balance() {
+function YourAnimals() {
     return (
         <div>
             <h4>Your Balance</h4>
@@ -9,4 +9,4 @@ function Balance() {
     )
 }
 
-export default Balance;
+export default YourAnimals;

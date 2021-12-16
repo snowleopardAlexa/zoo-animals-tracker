@@ -3,8 +3,8 @@ import './App.css';
 import Header from './Header';
 import Balance from './Balance';
 import IncomeExpenses from './IncomeExpenses';
-import TransactionList from './components/TransactionList';
-import AddTransaction from './components/AddTransaction';
+import TransactionList from './components/AnimalTransferList';
+import AddTransaction from './components/AddAnimal';
 
 const App = () => {
   return (

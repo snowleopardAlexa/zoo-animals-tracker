@@ -1,6 +1,6 @@
 import React from 'react'
 
-function IncomeExpenses() {
+function InAndOutAnimals() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function IncomeExpenses() {
     )
 }
 
-export default IncomeExpenses;
+export default InAndOutAnimals;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TransactionList() {
+function AnimalTransferList() {
     return (
         <div>
             <h3>History</h3>
@@ -11,4 +11,4 @@ function TransactionList() {
     )
 }
 
-export default TransactionList;
+export default AnimalTransferList;

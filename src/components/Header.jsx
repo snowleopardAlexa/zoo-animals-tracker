@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <div>
-            <h1>Expense Tracker</h1>
+            <h1>Zoo Animals Tracker</h1>
         </div>
     )
 }
