@@ -7,7 +7,7 @@ function AddTransaction() {
 
     return (
     <div>
-      <h3>Add new transaction</h3>
+      <h3>Add new animal</h3>
       <form id="form">
         <div class="form-control">
           <label for="text">Text</label>

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
-import { Transfer } from './Transfer';
+import  Transfer from './Transfer';
 
 function AnimalTransferList() {
 

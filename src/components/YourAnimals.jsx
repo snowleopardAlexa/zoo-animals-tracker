@@ -3,8 +3,8 @@ import React from 'react'
 function YourAnimals() {
     return (
         <div>
-            <h4>Your Balance</h4>
-            <h1 id="balance">$0.00</h1>
+            <h4>Your Animals</h4>
+            <h1 id="balance">10</h1>
         </div>
     )
 }
