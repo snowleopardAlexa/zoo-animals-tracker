@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
+import { Transfer } from './Transfer';
 
 function AnimalTransferList() {
 
@@ -9,10 +10,9 @@ function AnimalTransferList() {
         <div>
             <h3>History</h3>
             <ul id="list" className="list">
-                {animalTransfers.map(animalTransfer => (<li className="minus">
-                    {animalTransfer.text} <span>-1</span><button className="delete-btn">x</button>
-                    </li>))}
-                Animal <span>Snow Leopard</span><button class="delete-btn">x</button>
+                {animalTransfers.map(animalTransfer => (
+                    <Transfer key={animalTransfer.id} animalTransfer={animalTransfer} />
+                ))}
             </ul>
         </div>
     )
