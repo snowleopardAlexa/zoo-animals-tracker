@@ -27,7 +27,8 @@ function deleteAnimalTransfer(id) {
 }   
 
    return(<GlobalContext.Provider value={{
-       animalTransfers: state.animalTransfers
+       animalTransfers: state.animalTransfers,
+       deleteAnimalTransfer
    }}>
        {children}
    </GlobalContext.Provider>);
