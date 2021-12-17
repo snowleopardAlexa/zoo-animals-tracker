@@ -18,6 +18,14 @@ export const GlobalContext = createContext(initialState);
 export const GlobalProvider = ( { children }) => {
    const [state, dispatch] = useReducer(AppReducer, initialState);
 
+// actions
+function deleteAnimalTransfer(id) {
+    dispatch({
+        type: 'DELETE_ANIMALTRANSFER',
+        payload: id
+    });
+}   
+
    return(<GlobalContext.Provider value={{
        animalTransfers: state.animalTransfers
    }}>

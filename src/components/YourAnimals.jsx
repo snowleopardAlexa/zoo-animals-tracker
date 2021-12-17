@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { useContext } from 'react/cjs/react.development';
 import { GlobalContext } from '../context/GlobalState';
 
 function YourAnimals() {
